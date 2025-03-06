@@ -7,9 +7,8 @@ public class Main {
 
         Book book1 = new Book("1984", author1, 1949);
         Book book2 = new Book("Brave New World", author2, 1932);
-
-        System.out.println("Book 1: " + book1.getName() + " by " + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getLastName() + " (" + book1.getPublicationYear() + ")");
-        System.out.println("Book 2: " + book2.getName() + " by " + book2.getAuthor().getFirstName() + " " + book2.getAuthor().getLastName() + " (" + book2.getPublicationYear() + ")");
+        System.out.println(book1);
+        System.out.println(book2);
 
         book1.setPublicationYear(1984);
         System.out.println("Updated Book 1: " + book1.getName() + " by " + book1.getAuthor().getFirstName() + " " + book1.getAuthor().getLastName() + " (" + book1.getPublicationYear() + ")");
